@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 dark:bg-slate-900 transition-colors duration-500 flex flex-col min-h-screen;
+}
+
+footer {
+  @apply mt-auto;
+}
